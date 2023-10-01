@@ -104,7 +104,7 @@ function Quiz() {
       ) : questions.length > 0 ? (
         <div>
           <h3>Question {currentQuestion + 1}/10</h3>
-          <p>{questions[currentQuestion].question}</p>
+          <p className='Quiz'>{questions[currentQuestion].question}</p>
           <button onClick={() => handleAnswer('True')}>True</button>
           <button onClick={() => handleAnswer('False')}>False</button>
           <p>Time left: {timer} seconds</p>

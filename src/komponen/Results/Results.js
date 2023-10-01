@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Results.css"
 
 function Results({ correctAnswers, wrongAnswers, totalQuestions }) {
 

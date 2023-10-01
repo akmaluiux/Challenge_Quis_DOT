@@ -1,0 +1,12 @@
+.Results button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Results button:hover{
+    background-color:  rgb(66, 177, 75);
+}
